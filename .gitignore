@@ -1,0 +1,3 @@
+vendor
+storages/cache/*
+!storages/cache/README
