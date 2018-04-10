@@ -1,3 +1,3 @@
 <?php
 
-$app->add(\Juhara\CacheMiddleware\CacheMiddleware::class);
+$app->add(\Juhara\CacheMiddleware\CacheMidleware::class);

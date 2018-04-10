@@ -20,3 +20,12 @@ $container[CacheInterface::class] = function ($c) {
         new TimeUtility()
     );
 };
+
+use Juhara\CacheMiddleware\CacheMiddleware;
+use Juhara\CacheMiddleware\ResponseCacheFactory;
+
+$container[CacheMidleware::class] = function ($c) {
+    $cache = $c->get(CacheInterface::class);
+    $factory = new ResponseCacheFactory();
+    return new CacheMiddleware($cache, $factory);
+};
