@@ -39,16 +39,16 @@
         },
         {
             "name": "juhara/zzzcache",
-            "version": "v1.0.5",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzcache.git",
-                "reference": "16f19cabbecacbab286a35de8cabe02995591aea"
+                "reference": "296a51b481b635da19bef2b6f54a29a02434f2c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzcache/zipball/16f19cabbecacbab286a35de8cabe02995591aea",
-                "reference": "16f19cabbecacbab286a35de8cabe02995591aea",
+                "url": "https://api.github.com/repos/zamronypj/zzzcache/zipball/296a51b481b635da19bef2b6f54a29a02434f2c3",
+                "reference": "296a51b481b635da19bef2b6f54a29a02434f2c3",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +80,7 @@
                 "cache",
                 "library"
             ],
-            "time": "2018-04-10T04:08:05+00:00"
+            "time": "2018-04-10T05:23:51+00:00"
         },
         {
             "name": "juhara/zzzfile",
@@ -129,16 +129,16 @@
         },
         {
             "name": "juhara/zzzmiddleware",
-            "version": "v1.0.5",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzmiddleware.git",
-                "reference": "8b5b03ed43e5f2e44891f9ab76728c0cce77739e"
+                "reference": "2ad8344ea3fa37bf30ada26510a1f2ef97db052c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/8b5b03ed43e5f2e44891f9ab76728c0cce77739e",
-                "reference": "8b5b03ed43e5f2e44891f9ab76728c0cce77739e",
+                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/2ad8344ea3fa37bf30ada26510a1f2ef97db052c",
+                "reference": "2ad8344ea3fa37bf30ada26510a1f2ef97db052c",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "slim",
                 "slim-3"
             ],
-            "time": "2018-04-10T04:19:22+00:00"
+            "time": "2018-04-10T05:47:44+00:00"
         },
         {
             "name": "monolog/monolog",

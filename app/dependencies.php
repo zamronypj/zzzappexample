@@ -24,7 +24,7 @@ $container[CacheInterface::class] = function ($c) {
 use Juhara\CacheMiddleware\CacheMiddleware;
 use Juhara\CacheMiddleware\ResponseCacheFactory;
 
-$container[CacheMidleware::class] = function ($c) {
+$container[CacheMiddleware::class] = function ($c) {
     $cache = $c->get(CacheInterface::class);
     $factory = new ResponseCacheFactory();
     return new CacheMiddleware($cache, $factory);
