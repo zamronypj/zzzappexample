@@ -1,6 +1,5 @@
 {
     "require": {
-        "slim/slim-skeleton": "^3.1",
         "juhara/zzzmiddleware": "^1.0",
         "juhara/zzzfile": "^1.0"
     }
