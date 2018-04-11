@@ -39,16 +39,16 @@
         },
         {
             "name": "juhara/zzzcache",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzcache.git",
-                "reference": "296a51b481b635da19bef2b6f54a29a02434f2c3"
+                "reference": "c752215bd108cad2a2e8295800320a50ea26f803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzcache/zipball/296a51b481b635da19bef2b6f54a29a02434f2c3",
-                "reference": "296a51b481b635da19bef2b6f54a29a02434f2c3",
+                "url": "https://api.github.com/repos/zamronypj/zzzcache/zipball/c752215bd108cad2a2e8295800320a50ea26f803",
+                "reference": "c752215bd108cad2a2e8295800320a50ea26f803",
                 "shasum": ""
             },
             "require": {
@@ -80,20 +80,20 @@
                 "cache",
                 "library"
             ],
-            "time": "2018-04-10T05:23:51+00:00"
+            "time": "2018-04-11T02:38:02+00:00"
         },
         {
             "name": "juhara/zzzfile",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzfile.git",
-                "reference": "c689aeb3810f9ce9e934a32ce3bbde88165a4e71"
+                "reference": "aa3ac1f34cb0c227016afde521c4f13ef3ce7487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzfile/zipball/c689aeb3810f9ce9e934a32ce3bbde88165a4e71",
-                "reference": "c689aeb3810f9ce9e934a32ce3bbde88165a4e71",
+                "url": "https://api.github.com/repos/zamronypj/zzzfile/zipball/aa3ac1f34cb0c227016afde521c4f13ef3ce7487",
+                "reference": "aa3ac1f34cb0c227016afde521c4f13ef3ce7487",
                 "shasum": ""
             },
             "require": {
@@ -125,7 +125,7 @@
                 "cache",
                 "library"
             ],
-            "time": "2018-04-10T01:14:29+00:00"
+            "time": "2018-04-11T02:41:53+00:00"
         },
         {
             "name": "juhara/zzzmiddleware",
