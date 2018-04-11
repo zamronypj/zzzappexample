@@ -1,5 +1,5 @@
 # zzzappexample
-Example Slim Framework 3.0 application using CacheMiddleware
+Example Slim Framework 3.0 application using CacheMiddleware with file-based cache
 
 ## Requirement
 - [PHP >= 5.4](https://php.net)
