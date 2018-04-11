@@ -39,16 +39,16 @@
         },
         {
             "name": "juhara/zzzcache",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzcache.git",
-                "reference": "c752215bd108cad2a2e8295800320a50ea26f803"
+                "reference": "4078b879a4b84ac543ec22077845059c0ceeac1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzcache/zipball/c752215bd108cad2a2e8295800320a50ea26f803",
-                "reference": "c752215bd108cad2a2e8295800320a50ea26f803",
+                "url": "https://api.github.com/repos/zamronypj/zzzcache/zipball/4078b879a4b84ac543ec22077845059c0ceeac1d",
+                "reference": "4078b879a4b84ac543ec22077845059c0ceeac1d",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +80,7 @@
                 "cache",
                 "library"
             ],
-            "time": "2018-04-11T02:38:02+00:00"
+            "time": "2018-04-11T06:34:55+00:00"
         },
         {
             "name": "juhara/zzzfile",
