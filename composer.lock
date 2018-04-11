@@ -129,16 +129,16 @@
         },
         {
             "name": "juhara/zzzmiddleware",
-            "version": "v1.0.13",
+            "version": "v1.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzmiddleware.git",
-                "reference": "eb1735748e5d80119571fbff5c45dbd77e5b279d"
+                "reference": "e49497e762a870b33ad5799d44c120d7821f25d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/eb1735748e5d80119571fbff5c45dbd77e5b279d",
-                "reference": "eb1735748e5d80119571fbff5c45dbd77e5b279d",
+                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/e49497e762a870b33ad5799d44c120d7821f25d3",
+                "reference": "e49497e762a870b33ad5799d44c120d7821f25d3",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,7 @@
                 "slim",
                 "slim-3"
             ],
-            "time": "2018-04-11T02:59:51+00:00"
+            "time": "2018-04-11T07:29:37+00:00"
         },
         {
             "name": "nikic/fast-route",
