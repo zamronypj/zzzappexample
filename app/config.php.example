@@ -1,0 +1,40 @@
+<?php
+// Create and configure Slim app
+return [
+    'settings' => [
+        'addContentLengthHeader' => false,
+
+        /*----------------------------------
+         * application settings
+         *----------------------------------*/
+        'app' => [
+
+            /*----------------------------------
+             * cache settings
+             * available driver : file, redis
+             *----------------------------------*/
+            'cache' => [
+                /*----------------------------------
+                 * available storage : file, redis
+                 *----------------------------------*/
+                'storage' => 'file',
+
+                /*----------------------------------
+                 * setting related to file storage
+                 *----------------------------------*/
+                'file' => [
+                    'dir' => 'storages/cache/',
+                    'prefix' => 'cache',
+                ],
+
+                /*----------------------------------
+                 * setting related to Redis storage
+                 *----------------------------------*/
+                'redis' => [
+                    'host'   => '127.0.0.1',
+                    'port'   => 6379,
+                ],
+            ],
+        ],
+    ],
+];

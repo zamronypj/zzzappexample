@@ -15,6 +15,9 @@ Example Slim Framework 3.0 application using CacheMiddleware with file-based cac
 
        $ composer install
 
+- Copy and rename `app/config.php.example` to `app/config.php` and edit configuration
+to match your settings.
+
 ## Run application
 - Run, for example, with PHP built-in server
 

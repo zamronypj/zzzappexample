@@ -1,6 +1,7 @@
 {
     "require": {
         "juhara/zzzmiddleware": "^1.0",
-        "juhara/zzzfile": "^1.0"
+        "juhara/zzzfile": "^1.0",
+        "juhara/zzzredis": "^1.0"
     }
 }

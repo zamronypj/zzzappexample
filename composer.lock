@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "571a69744cd9ad62d72abf9de7ac30cc",
+    "content-hash": "d26d296f091a95c20a105c9d267d2607",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -129,16 +129,16 @@
         },
         {
             "name": "juhara/zzzmiddleware",
-            "version": "v1.0.14",
+            "version": "v1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzmiddleware.git",
-                "reference": "e49497e762a870b33ad5799d44c120d7821f25d3"
+                "reference": "41f0c58cc8c8e61781680a50b214b0c4c1ba431e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/e49497e762a870b33ad5799d44c120d7821f25d3",
-                "reference": "e49497e762a870b33ad5799d44c120d7821f25d3",
+                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/41f0c58cc8c8e61781680a50b214b0c4c1ba431e",
+                "reference": "41f0c58cc8c8e61781680a50b214b0c4c1ba431e",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,53 @@
                 "slim",
                 "slim-3"
             ],
-            "time": "2018-04-11T07:29:37+00:00"
+            "time": "2018-04-12T07:27:51+00:00"
+        },
+        {
+            "name": "juhara/zzzredis",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zamronypj/zzzredis.git",
+                "reference": "e6af82c038e71f186e4d3b89916d0d7d33166dc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zamronypj/zzzredis/zipball/e6af82c038e71f186e4d3b89916d0d7d33166dc2",
+                "reference": "e6af82c038e71f186e4d3b89916d0d7d33166dc2",
+                "shasum": ""
+            },
+            "require": {
+                "juhara/zzzcache": "^1.0",
+                "php": ">=5.4",
+                "predis/predis": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Juhara\\ZzzCache\\Storages\\": "src/Storages",
+                    "Juhara\\ZzzCache\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Zamrony P. Juhara",
+                    "email": "zamronypj@yahoo.com"
+                }
+            ],
+            "description": "Redis storage implementation for ZzzCache",
+            "keywords": [
+                "cache",
+                "library"
+            ],
+            "time": "2018-04-11T02:39:27+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -272,6 +318,56 @@
                 "dependency injection"
             ],
             "time": "2018-01-21T07:42:36+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
         },
         {
             "name": "psr/container",

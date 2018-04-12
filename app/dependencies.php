@@ -2,23 +2,40 @@
 
 use Juhara\ZzzCache\Contracts\CacheInterface;
 use Juhara\ZzzCache\Cache;
-use Juhara\ZzzCache\Storages\File;
 use Juhara\ZzzCache\Helpers\TimeUtility;
+
+use Juhara\ZzzCache\Storages\File;
 use Juhara\ZzzCache\Helpers\Md5Hash;
 
+use Predis\Client;
+use Juhara\ZzzCache\Storages\Redis;
+
 $container[CacheInterface::class] = function ($c) {
-    // create a file-based cache where all cache
-    // files is stored in directory name
-    // app/storages/cache with
-    // filename prefixed with string 'cache'
-    return new Cache(
-        new File(
-            new Md5Hash(),
-            'storages/cache/',
-            'cache'
-        ),
-        new TimeUtility()
-    );
+    $storage = null;
+    $storageType = $c->get('settings')['app']['cache']['storage'];
+    switch ($storageType) {
+        case 'file' :
+            // create a file-based cache where all cache
+            // files is stored in directory name
+            // app/storages/cache with
+            // filename prefixed with string 'cache'
+            $cacheCfg = $c->get('settings')['app']['cache']['file'];
+            $storage = new File(
+                new Md5Hash(),
+                $cacheCfg['dir'],
+                $cacheCfg['prefix']
+            );
+            break;
+        case 'redis' :
+            // create a Redis-based cache
+            $cacheCfg = $c->get('settings')['app']['cache']['redis'];
+            $storage = new Redis(new Client($cacheCfg));
+            break;
+        default :
+            throw new \Exception('Unsupported storage driver');
+    }
+
+    return new Cache($storage, new TimeUtility());
 };
 
 use Juhara\CacheMiddleware\CacheMiddleware;
