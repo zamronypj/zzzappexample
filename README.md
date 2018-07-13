@@ -5,8 +5,10 @@ Example Slim Framework 3.0 application using CacheMiddleware with file-based cac
 - [PHP >= 5.4](https://php.net)
 - [Composer](https://getcomposer.org)
 - [Slim Framework 3.0](https://slimframework.com)
+- [ZzzCache](https://github.com/zamronypj/zzzcache)
 - [CacheMiddleware](https://github.com/zamronypj/zzzmiddleware)
 - [ZzzFile](https://github.com/zamronypj/zzzfile)
+- [ZzzRedis](https://github.com/zamronypj/zzzredis)
 
 ## Installation
 
