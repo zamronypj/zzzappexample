@@ -132,16 +132,16 @@
         },
         {
             "name": "juhara/zzzmiddleware",
-            "version": "v1.0.15",
+            "version": "v1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zamronypj/zzzmiddleware.git",
-                "reference": "41f0c58cc8c8e61781680a50b214b0c4c1ba431e"
+                "reference": "b22ac8702fd432717b1e294d79ad410a52211c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/41f0c58cc8c8e61781680a50b214b0c4c1ba431e",
-                "reference": "41f0c58cc8c8e61781680a50b214b0c4c1ba431e",
+                "url": "https://api.github.com/repos/zamronypj/zzzmiddleware/zipball/b22ac8702fd432717b1e294d79ad410a52211c54",
+                "reference": "b22ac8702fd432717b1e294d79ad410a52211c54",
                 "shasum": ""
             },
             "require": {
@@ -178,7 +178,7 @@
                 "slim",
                 "slim-3"
             ],
-            "time": "2018-04-12T07:27:51+00:00"
+            "time": "2018-09-09T23:34:50+00:00"
         },
         {
             "name": "juhara/zzzredis",
