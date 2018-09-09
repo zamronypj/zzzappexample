@@ -2,7 +2,7 @@
 
 use Juhara\ZzzCache\Contracts\CacheInterface;
 use Juhara\ZzzCache\Cache;
-use Juhara\ZzzCache\Helpers\TimeUtility;
+use Juhara\ZzzCache\Helpers\ExpiryCalculator;
 
 use Juhara\ZzzCache\Storages\File;
 use Juhara\ZzzCache\Helpers\Md5Hash;
@@ -35,7 +35,7 @@ $container[CacheInterface::class] = function ($c) {
             throw new \Exception('Unsupported storage driver');
     }
 
-    return new Cache($storage, new TimeUtility());
+    return new Cache($storage, new ExpiryCalculator());
 };
 
 use Juhara\CacheMiddleware\CacheMiddleware;

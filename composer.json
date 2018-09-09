@@ -1,4 +1,21 @@
 {
+    "name": "juhara/zzzappexample",
+    "description": "Example Slim 3.0 application using cache middleware",
+    "license": "Apache-2.0",
+    "type" : "library",
+    "keywords" : ["php", "cache", "library", "middleware", "slim", "slim-3", "zzzcache"],
+    "authors": [
+        {
+            "name": "Zamrony P. Juhara",
+            "email": "zamronypj@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    },
+
     "require": {
         "juhara/zzzmiddleware": "^1.0",
         "juhara/zzzfile": "^1.0",

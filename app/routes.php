@@ -1,6 +1,4 @@
 <?php
 
 // Define app routes
-$app->get('/', function ($request, $response, $args) {
-    return $response->write('Home');
-});
+$app->get('/', App\Home\Controllers\Home::class);
