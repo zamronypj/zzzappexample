@@ -26,6 +26,8 @@ to match your settings.
       $ php -S localhost:9090 -t public public/index.php
 
 - Open browser and open http://localhost:9090
+- If you use file-based cache with default configuration, you should see new files generated inside `storages/cache` directory. If somehow, these files are not generated,
+make sure that directory permission is correct.
 
 ## Contributing
 
